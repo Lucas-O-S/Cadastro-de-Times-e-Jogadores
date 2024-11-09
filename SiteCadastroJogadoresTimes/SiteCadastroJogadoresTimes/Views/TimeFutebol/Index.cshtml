@@ -1,0 +1,54 @@
+﻿@model List< TimeFutebolViewModel>
+
+<div class="container mt-4">
+    <!-- Botões acima da tabela -->
+    <div class="mb-3">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary btn-sm">Voltar à Home</a>
+        <a href="@Url.Action("Create", "TimeFutebol")" class="btn btn-success btn-sm">Criar Novo Registro</a>
+    </div>
+
+    <h2>Lista de Times de Futebol</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th asp-for="Id">ID</th>
+                <th asp-for="nome">Nome</th>
+                <th asp-for="nomeDoStadio">Nome do Estádio</th>
+                <th asp-for="logotipoTime">Logo</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var time in Model)
+            {
+                <tr>
+                    <td>@time.id</td>
+                    <td>@time.nome</td>
+                    <td>@time.nomeDoEstadio</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(time.logotipoTime64))
+                        {
+                            <img src="data:image/png;base64,@time.logotipoTime64" alt="Logo do Time" style="width: 50px; height: 50px;" />
+                        }
+                        else
+                        {
+                            <span>Sem logo</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-controller="TimeFutebol" asp-action="Edit" asp-route-id="@time.id" class="btn btn-primary btn-sm">Editar</a>
+                        <button type="button" class="btn btn-danger btn-sm" onclick="ApagarModel(@time.id)">Excluir</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function ApagarModel(id) {
+        if (confirm("Confirmar a exclusão do registro?")) {
+            location.href = "TimeFutebol/Delete?Id=" + id;
+        }
+    }
+</script>

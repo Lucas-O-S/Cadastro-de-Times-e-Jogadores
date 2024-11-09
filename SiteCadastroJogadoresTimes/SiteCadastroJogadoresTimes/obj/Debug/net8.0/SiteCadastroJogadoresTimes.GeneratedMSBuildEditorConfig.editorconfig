@@ -26,12 +26,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lucas/repo/Cadastro-de-Times-e-Jogadores/SiteCadastroJogadoresTimes/SiteCadastroJogadoresTimes/Views/Jogadores/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzXEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/repo/Cadastro-de-Times-e-Jogadores/SiteCadastroJogadoresTimes/SiteCadastroJogadoresTimes/Views/Jogadores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lucas/repo/Cadastro-de-Times-e-Jogadores/SiteCadastroJogadoresTimes/SiteCadastroJogadoresTimes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lucas/repo/Cadastro-de-Times-e-Jogadores/SiteCadastroJogadoresTimes/SiteCadastroJogadoresTimes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/repo/Cadastro-de-Times-e-Jogadores/SiteCadastroJogadoresTimes/SiteCadastroJogadoresTimes/Views/TimeFutebol/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZUZ1dGVib2xcRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/repo/Cadastro-de-Times-e-Jogadores/SiteCadastroJogadoresTimes/SiteCadastroJogadoresTimes/Views/TimeFutebol/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZUZ1dGVib2xcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lucas/repo/Cadastro-de-Times-e-Jogadores/SiteCadastroJogadoresTimes/SiteCadastroJogadoresTimes/Views/_ViewImports.cshtml]

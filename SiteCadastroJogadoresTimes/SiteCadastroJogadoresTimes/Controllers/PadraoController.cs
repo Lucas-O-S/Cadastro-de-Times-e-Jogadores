@@ -12,7 +12,7 @@ namespace SiteCadastroJogadoresTimes.Controllers
 		protected string NomeViewForm { get; set; } = "form";
 
 		protected virtual IActionResult RedirecionaParaIndex(T model)
-		{
+		{ 
 			return RedirectToAction(NomeViewIndex);
 		}
 

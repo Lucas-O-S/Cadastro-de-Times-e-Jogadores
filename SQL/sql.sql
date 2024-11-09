@@ -13,7 +13,6 @@ create table TimeFutebol
 
 
 GO
-
 create table Jogadores
 (
 id int primary key identity (1,1),
@@ -78,7 +77,7 @@ create or alter procedure sp_Update_TimeFutebol(
 )
 as
 begin
-	update TimeFutebol set nome = @nome, NomeDoEstadio = NomeDoEstadio, LogotipoTime = LogotipoTime where id = @id
+	update TimeFutebol set nome = @nome, NomeDoEstadio = NomeDoEstadio, LogotipoTime = @LogotipoTime where id = @id
 end
 go
 
@@ -101,6 +100,6 @@ create or alter procedure sp_update_Jogadores(
 )
 as
 begin
-	update Jogadores set nome = nome, Posicao = Posicao, TimeId = TimeId where id = @id
+	update Jogadores set nome = @nome, Posicao = @Posicao, TimeId = @TimeId where id = @id
 end
 go

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiteCadastroJogadoresTimes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f2a7a398cd9c8489bff3a5d585eb1fd7ca44f88")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiteCadastroJogadoresTimes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiteCadastroJogadoresTimes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
